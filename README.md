@@ -1,4 +1,4 @@
-# DataScienceProjects
+# Classical Machine Learn Projects
 
 Este repositório contém uma coleção dos meus principais projetos de **Ciência de Dados**, abrangendo uma variedade de tópicos e desafios, desde **análises estatísticas** até **modelos complexos** como **redes neurais**. O objetivo é demonstrar minha experiência e habilidades na aplicação de técnicas de análise de dados e aprendizado de máquina para resolver problemas reais.
 

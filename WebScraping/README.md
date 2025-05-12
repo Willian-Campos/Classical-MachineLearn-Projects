@@ -1,1 +1,1 @@
-Pasta criada para guardar projetos relecionados apenas a WebScraping.
+# Pasta criada para guardar projetos relecionados apenas a WebScraping.

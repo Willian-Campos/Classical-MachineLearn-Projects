@@ -1,7 +1,7 @@
 # Análise de Risco de Acidentes Offshore
-### *Projeto de Engenharia e Ciência de Dados*
+### *Projeto de Ciência de Dados*
 
-Este repositório apresenta um estudo completo sobre **riscos de acidentes em ambiente offshore**, incluindo **limpeza, modelagem, enriquecimento financeiro e análise estatística**.  
+Este repositório apresenta um estudo sobre **riscos de acidentes em ambiente offshore**, incluindo **limpeza, modelagem, enriquecimento financeiro e análise estatística**.  
 O projeto combina técnicas de *data engineering*, *data analysis* e *visual analytics* para identificar padrões relevantes que podem apoiar decisões de segurança e redução de custos.
 
 ---
@@ -14,8 +14,6 @@ Desenvolver uma análise estruturada dos incidentes e quase-incidentes offshore,
 - Impactos financeiros  
 - Pontos críticos para mitigação de risco  
 
-> **"Prevenção é melhor que remediação."**
-
 ---
 
 ## Estrutura do Projeto
@@ -23,9 +21,9 @@ Desenvolver uma análise estruturada dos incidentes e quase-incidentes offshore,
 ### **1. `risco_acidente_offshore.ipynb`**  
 Notebook dedicado à **limpeza, padronização e engenharia de dados**, incluindo:  
 - Tratamento de inconsistências  
-- Normalização de colunas  
-- Criação de variáveis categóricas e temporais  
+- Criação de features
 - Preparação para análises estatísticas e financeiras
+- Limpeza de valores nulos
 
 ---
 
@@ -34,7 +32,7 @@ Notebook focado no **impacto monetário** dos acidentes.
 Principais operações:  
 - Pesquisa de custos típicos por severidade  
 - Criação de colunas de impacto econômico  
-- Consolidação de custos totais para cada categoria  
+- Consolidação de custos totais para cada tipo de incidente
 - Estimativas baseadas em literatura e dados oficiais (quando disponíveis)
 
 ---
@@ -51,7 +49,7 @@ Notebook destinado à **análise estatística e visual**, incluindo:
 
 ## 📈 Principais Insights
 - Maior incidência de incidentes próximos aos horários de **troca de turno**  
-- Certas instalações concentram mais ocorrências  
+- Escala de gravidade
 - Incidentes graves são raros, mas apresentam **impacto financeiro desproporcionalmente alto**  
 - O custo agregado total mostra prejuízos bilionários, reforçando a importância de processos preventivos
 
@@ -65,5 +63,8 @@ Notebook destinado à **análise estatística e visual**, incluindo:
 - Feather / CSV  
 
 ---
-
-## 📦 Estrutura de Arquivos
+## 📚 Possíveis Extensões Futuras
+- Modelos preditivos para classificação de severidade  
+- Dashboards interativos em Streamlit ou Power BI  
+- Análise probabilística Bayesiana  
+- Integração com sistemas de monitoramento offshore  
